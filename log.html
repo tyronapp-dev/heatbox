@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>HeaTBox Login</title>
+    <style>
+        body { background: #000; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif; }
+        .login-box { display: flex; flex-direction: column; gap: 10px; width: 300px; }
+        input { padding: 10px; border-radius: 5px; border: none; }
+        button { padding: 10px; border-radius: 5px; border: none; background: #fa233b; color: white; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>HeaTBox Login</h2>
+        <input type="email" id="email" placeholder="E-Mail">
+        <input type="password" id="password" placeholder="Passwort">
+        <button id="login-btn">Anmelden</button>
+        <p id="error-msg" style="color: red;"></p>
+    </div>
+    <script type="module" src="login.js"></script>
+</body>
+</html>
